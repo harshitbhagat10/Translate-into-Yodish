@@ -2,4 +2,6 @@ console.log("Script is working");
 
 var username = prompt("Enter your name!")
 
-alert("This is working! " + username)
+var welcomemsg = "This is working! " + username
+
+alert(welcomemsg)
