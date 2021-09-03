@@ -5,3 +5,12 @@ textarea{
     padding: 1rem;
     margin: 1rem;
 }
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+
+}
