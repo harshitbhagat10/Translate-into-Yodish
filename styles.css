@@ -1,3 +1,88 @@
+@import url(https://allfont.net/allfont.css?fonts=star-jedi);
+
+:root{
+    --primary-color: #111827;
+    --secondary-color: #F3F4F6;
+}
+
+body {
+    background-color: black;
+    font-family: 'Star Jedi' , arial ;
+    margin:0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+small {
+    font-size: 16px;
+    
+}
+
+.container-centred {
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+button {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: black;
+    color: var(--secondary-color);
+
+}
+
+
+.lists-non-bullet {
+    list-style: none;
+}
+
+.lists-item-inline {
+    display: inline;
+    padding: 0rem 3rem;
+   
+}
+
+.navigation {
+    background-image: url(/images/desktop-backgrounds-star-wars-14.jpg);
+    background-position: center;
+    padding: 2rem;
+
+}
+
+.main-header{
+    color: var(--secondary-color);
+    font-size: 48px;
+    text-align: center;
+}
+
+.footer {
+    background-image: url(/images/star-war-background-5.jpg);
+    background-position: center;
+    text-align: center;
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+
+.footer-header {
+    color: var(--secondary-color);
+    font-size: 24px;
+}
+
+
+
+
 textarea{
     width: 80%;
     display: block;
@@ -7,10 +92,21 @@ textarea{
 }
 
 #output {
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     height: 10vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
 
+}
+
+button{
+    text-align: center;
+}
+
+main{
+    
+    background-color: black;
+    
 }
