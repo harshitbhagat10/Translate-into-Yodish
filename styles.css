@@ -1,4 +1,4 @@
-@import url(https://allfont.net/allfont.css?fonts=star-jedi);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Play:wght@400;700&display=swap');
 
 :root{
     --primary-color: #111827;
@@ -7,7 +7,8 @@
 
 body {
     background-color: black;
-    font-family: 'Star Jedi' , arial ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Play', sans-serif;
     margin:0px;
 }
 
